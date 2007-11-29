@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<php:start xmlns:php="http://php.net/xsl">
+<php:top_statement_list id="139">
+<php:top_statement_list id="0">
+</php:top_statement_list>
+<php:ACTION1 id="2">
+</php:ACTION1>
+<php:top_statement id="138">
+<php:class_declaration_statement id="137">
+<php:unticked_class_declaration_statement id="136">
+<php:class_entry_type id="4">
+<php:T_CLASS id="3">class</php:T_CLASS>
+</php:class_entry_type>
+<php:T_STRING id="5">Foo</php:T_STRING>
+<php:extends_from id="7">
+</php:extends_from>
+<php:ACTION31 id="8">
+</php:ACTION31>
+<php:implements_list id="10">
+</php:implements_list>
+<php:CHAR123 id="11">{</php:CHAR123>
+<php:class_statement_list id="134">
+<php:class_statement_list id="84">
+<php:class_statement_list id="72">
+<php:class_statement_list id="42">
+<php:class_statement_list id="27">
+<php:class_statement_list id="12">
+</php:class_statement_list>
+<php:class_statement id="26">
+<php:variable_modifiers id="17">
+<php:non_empty_member_modifiers id="15">
+<php:member_modifier id="14">
+<php:T_PUBLIC id="13">public</php:T_PUBLIC>
+</php:member_modifier>
+</php:non_empty_member_modifiers>
+</php:variable_modifiers>
+<php:ACTION37 id="18">
+</php:ACTION37>
+<php:class_variable_declaration id="24">
+<php:T_VARIABLE id="19">$inputString</php:T_VARIABLE>
+<php:CHAR61 id="20">=</php:CHAR61>
+<php:static_scalar id="23">
+<php:common_scalar id="22">
+<php:T_CONSTANT_ENCAPSED_STRING id="21">'test'</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:static_scalar>
+</php:class_variable_declaration>
+<php:CHAR59 id="25">;</php:CHAR59>
+</php:class_statement>
+</php:class_statement_list>
+<php:class_statement id="41">
+<php:variable_modifiers id="32">
+<php:non_empty_member_modifiers id="30">
+<php:member_modifier id="29">
+<php:T_PUBLIC id="28">public</php:T_PUBLIC>
+</php:member_modifier>
+</php:non_empty_member_modifiers>
+</php:variable_modifiers>
+<php:ACTION37 id="33">
+</php:ACTION37>
+<php:class_variable_declaration id="39">
+<php:T_VARIABLE id="34">$myInteger</php:T_VARIABLE>
+<php:CHAR61 id="35">=</php:CHAR61>
+<php:static_scalar id="38">
+<php:common_scalar id="37">
+<php:T_LNUMBER id="36">20</php:T_LNUMBER>
+</php:common_scalar>
+</php:static_scalar>
+</php:class_variable_declaration>
+<php:CHAR59 id="40">;</php:CHAR59>
+</php:class_statement>
+</php:class_statement_list>
+<php:class_statement id="71">
+<php:variable_modifiers id="47">
+<php:non_empty_member_modifiers id="45">
+<php:member_modifier id="44">
+<php:T_PUBLIC id="43">public</php:T_PUBLIC>
+</php:member_modifier>
+</php:non_empty_member_modifiers>
+</php:variable_modifiers>
+<php:ACTION37 id="48">
+</php:ACTION37>
+<php:class_variable_declaration id="69">
+<php:T_VARIABLE id="49">$stringArray</php:T_VARIABLE>
+<php:CHAR61 id="50">=</php:CHAR61>
+<php:static_scalar id="68">
+<php:T_ARRAY id="51">array</php:T_ARRAY>
+<php:CHAR40 id="52">(</php:CHAR40>
+<php:static_array_pair_list id="66">
+<php:non_empty_static_array_pair_list id="63">
+<php:non_empty_static_array_pair_list id="57">
+<php:static_scalar id="55">
+<php:common_scalar id="54">
+<php:T_CONSTANT_ENCAPSED_STRING id="53">'1d2'</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:static_scalar>
+</php:non_empty_static_array_pair_list>
+<php:CHAR44 id="58">,</php:CHAR44>
+<php:static_scalar id="61">
+<php:common_scalar id="60">
+<php:T_CONSTANT_ENCAPSED_STRING id="59">'a1d'</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:static_scalar>
+</php:non_empty_static_array_pair_list>
+<php:possible_comma id="65">
+</php:possible_comma>
+</php:static_array_pair_list>
+<php:CHAR41 id="67">)</php:CHAR41>
+</php:static_scalar>
+</php:class_variable_declaration>
+<php:CHAR59 id="70">;</php:CHAR59>
+</php:class_statement>
+</php:class_statement_list>
+<php:class_statement id="83">
+<php:variable_modifiers id="77">
+<php:non_empty_member_modifiers id="75">
+<php:member_modifier id="74">
+<php:T_PUBLIC id="73">public</php:T_PUBLIC>
+</php:member_modifier>
+</php:non_empty_member_modifiers>
+</php:variable_modifiers>
+<php:ACTION37 id="78">
+</php:ACTION37>
+<php:class_variable_declaration id="81">
+<php:T_VARIABLE id="79">$myDouble</php:T_VARIABLE>
+</php:class_variable_declaration>
+<php:CHAR59 id="82">;</php:CHAR59>
+</php:class_statement>
+</php:class_statement_list>
+<php:class_statement id="133">
+<php:method_modifiers id="89">
+<php:non_empty_member_modifiers id="87">
+<php:member_modifier id="86">
+<php:T_PUBLIC id="85">public</php:T_PUBLIC>
+</php:member_modifier>
+</php:non_empty_member_modifiers>
+</php:method_modifiers>
+<php:T_FUNCTION id="90">function</php:T_FUNCTION>
+<php:is_reference id="92">
+</php:is_reference>
+<php:T_STRING id="93">getInputString</php:T_STRING>
+<php:CHAR40 id="94">(</php:CHAR40>
+<php:parameter_list id="96">
+</php:parameter_list>
+<php:CHAR41 id="97">)</php:CHAR41>
+<php:method_body id="132">
+<php:CHAR123 id="98">{</php:CHAR123>
+<php:inner_statement_list id="130">
+<php:inner_statement_list id="99">
+</php:inner_statement_list>
+<php:ACTION2 id="101">
+</php:ACTION2>
+<php:inner_statement id="129">
+<php:statement id="128">
+<php:unticked_statement id="127">
+<php:T_RETURN id="102">return</php:T_RETURN>
+<php:variable id="125">
+<php:base_variable_with_function_calls id="108">
+<php:base_variable id="107">
+<php:reference_variable id="105">
+<php:compound_variable id="104">
+<php:T_VARIABLE id="103">$this</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+<php:T_OBJECT_OPERATOR id="109">-&gt;</php:T_OBJECT_OPERATOR>
+<php:ACTION57 id="110">
+</php:ACTION57>
+<php:object_property id="115">
+<php:object_dim_list id="113">
+<php:variable_name id="112">
+<php:T_STRING id="111">getInputString</php:T_STRING>
+</php:variable_name>
+</php:object_dim_list>
+</php:object_property>
+<php:ACTION58 id="116">
+</php:ACTION58>
+<php:method_or_not id="122">
+<php:CHAR40 id="117">(</php:CHAR40>
+<php:ACTION60 id="118">
+</php:ACTION60>
+<php:function_call_parameter_list id="120">
+</php:function_call_parameter_list>
+<php:CHAR41 id="121">)</php:CHAR41>
+</php:method_or_not>
+<php:variable_properties id="123">
+</php:variable_properties>
+</php:variable>
+<php:CHAR59 id="126">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:CHAR125 id="131">}</php:CHAR125>
+</php:method_body>
+</php:class_statement>
+</php:class_statement_list>
+<php:CHAR125 id="135">}</php:CHAR125>
+</php:unticked_class_declaration_statement>
+</php:class_declaration_statement>
+</php:top_statement>
+</php:top_statement_list>
+</php:start>

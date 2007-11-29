@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<php:start xmlns:php="http://php.net/xsl">
+<php:top_statement_list id="643">
+<php:top_statement_list id="576">
+<php:top_statement_list id="34">
+<php:top_statement_list id="17">
+<php:top_statement_list id="0">
+</php:top_statement_list>
+<php:ACTION1 id="2">
+</php:ACTION1>
+<php:top_statement id="16">
+<php:statement id="15">
+<php:unticked_statement id="14">
+<php:expr id="12">
+<php:expr_without_variable id="11">
+<php:internal_functions_in_yacc id="10">
+<php:T_REQUIRE_ONCE id="3">require_once</php:T_REQUIRE_ONCE>
+<php:expr id="8">
+<php:expr_without_variable id="7">
+<php:scalar id="6">
+<php:common_scalar id="5">
+<php:T_CONSTANT_ENCAPSED_STRING id="4">'Foo.php'</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:expr>
+</php:internal_functions_in_yacc>
+</php:expr_without_variable>
+</php:expr>
+<php:CHAR59 id="13">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:top_statement>
+</php:top_statement_list>
+<php:ACTION1 id="19">
+</php:ACTION1>
+<php:top_statement id="33">
+<php:statement id="32">
+<php:unticked_statement id="31">
+<php:expr id="29">
+<php:expr_without_variable id="28">
+<php:internal_functions_in_yacc id="27">
+<php:T_REQUIRE_ONCE id="20">require_once</php:T_REQUIRE_ONCE>
+<php:expr id="25">
+<php:expr_without_variable id="24">
+<php:scalar id="23">
+<php:common_scalar id="22">
+<php:T_CONSTANT_ENCAPSED_STRING id="21">'Bar.php'</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:expr>
+</php:internal_functions_in_yacc>
+</php:expr_without_variable>
+</php:expr>
+<php:CHAR59 id="30">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:top_statement>
+</php:top_statement_list>
+<php:ACTION1 id="36">
+</php:ACTION1>
+<php:top_statement id="575">
+<php:class_declaration_statement id="574">
+<php:unticked_class_declaration_statement id="573">
+<php:class_entry_type id="38">
+<php:T_CLASS id="37">class</php:T_CLASS>
+</php:class_entry_type>
+<php:T_STRING id="39">Test</php:T_STRING>
+<php:extends_from id="41">
+</php:extends_from>
+<php:ACTION31 id="42">
+</php:ACTION31>
+<php:implements_list id="44">
+</php:implements_list>
+<php:CHAR123 id="45">{</php:CHAR123>
+<php:class_statement_list id="571">
+<php:class_statement_list id="507">
+<php:class_statement_list id="46">
+</php:class_statement_list>
+<php:class_statement id="506">
+<php:method_modifiers id="48">
+</php:method_modifiers>
+<php:T_FUNCTION id="49">function</php:T_FUNCTION>
+<php:is_reference id="51">
+</php:is_reference>
+<php:T_STRING id="52">__construct</php:T_STRING>
+<php:CHAR40 id="53">(</php:CHAR40>
+<php:parameter_list id="55">
+</php:parameter_list>
+<php:CHAR41 id="56">)</php:CHAR41>
+<php:method_body id="505">
+<php:CHAR123 id="57">{</php:CHAR123>
+<php:inner_statement_list id="503">
+<php:inner_statement_list id="483">
+<php:inner_statement_list id="416">
+<php:inner_statement_list id="345">
+<php:inner_statement_list id="274">
+<php:inner_statement_list id="237">
+<php:inner_statement_list id="202">
+<php:inner_statement_list id="169">
+<php:inner_statement_list id="89">
+<php:inner_statement_list id="58">
+</php:inner_statement_list>
+<php:ACTION2 id="60">
+</php:ACTION2>
+<php:inner_statement id="88">
+<php:statement id="87">
+<php:unticked_statement id="86">
+<php:expr id="84">
+<php:expr_without_variable id="83">
+<php:variable id="68">
+<php:base_variable_with_function_calls id="66">
+<php:base_variable id="65">
+<php:reference_variable id="63">
+<php:compound_variable id="62">
+<php:T_VARIABLE id="61">$myFoo</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+</php:variable>
+<php:CHAR61 id="69">=</php:CHAR61>
+<php:expr id="81">
+<php:expr_without_variable id="80">
+<php:T_NEW id="70">new</php:T_NEW>
+<php:class_name_reference id="73">
+<php:T_STRING id="71">Foo</php:T_STRING>
+</php:class_name_reference>
+<php:ACTION41 id="74">
+</php:ACTION41>
+<php:ctor_arguments id="79">
+<php:CHAR40 id="75">(</php:CHAR40>
+<php:function_call_parameter_list id="77">
+</php:function_call_parameter_list>
+<php:CHAR41 id="78">)</php:CHAR41>
+</php:ctor_arguments>
+</php:expr_without_variable>
+</php:expr>
+</php:expr_without_variable>
+</php:expr>
+<php:CHAR59 id="85">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="91">
+</php:ACTION2>
+<php:inner_statement id="168">
+<php:statement id="167">
+<php:unticked_statement id="166">
+<php:expr id="164">
+<php:r_variable id="163">
+<php:variable id="161">
+<php:base_variable_with_function_calls id="97">
+<php:base_variable id="96">
+<php:reference_variable id="94">
+<php:compound_variable id="93">
+<php:T_VARIABLE id="92">$this</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+<php:T_OBJECT_OPERATOR id="98">-&gt;</php:T_OBJECT_OPERATOR>
+<php:ACTION57 id="99">
+</php:ACTION57>
+<php:object_property id="104">
+<php:object_dim_list id="102">
+<php:variable_name id="101">
+<php:T_STRING id="100">test</php:T_STRING>
+</php:variable_name>
+</php:object_dim_list>
+</php:object_property>
+<php:ACTION58 id="105">
+</php:ACTION58>
+<php:method_or_not id="158">
+<php:CHAR40 id="106">(</php:CHAR40>
+<php:ACTION60 id="107">
+</php:ACTION60>
+<php:function_call_parameter_list id="156">
+<php:non_empty_function_call_parameter_list id="154">
+<php:non_empty_function_call_parameter_list id="147">
+<php:non_empty_function_call_parameter_list id="133">
+<php:non_empty_function_call_parameter_list id="122">
+<php:non_empty_function_call_parameter_list id="113">
+<php:expr_without_variable id="111">
+<php:scalar id="110">
+<php:common_scalar id="109">
+<php:T_LNUMBER id="108">1</php:T_LNUMBER>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="114">,</php:CHAR44>
+<php:expr_without_variable id="120">
+<php:T_ARRAY id="115">array</php:T_ARRAY>
+<php:CHAR40 id="116">(</php:CHAR40>
+<php:array_pair_list id="118">
+</php:array_pair_list>
+<php:CHAR41 id="119">)</php:CHAR41>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="123">,</php:CHAR44>
+<php:variable id="131">
+<php:base_variable_with_function_calls id="129">
+<php:base_variable id="128">
+<php:reference_variable id="126">
+<php:compound_variable id="125">
+<php:T_VARIABLE id="124">$this</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="134">,</php:CHAR44>
+<php:expr_without_variable id="145">
+<php:T_NEW id="135">new</php:T_NEW>
+<php:class_name_reference id="138">
+<php:T_STRING id="136">stdClass</php:T_STRING>
+</php:class_name_reference>
+<php:ACTION41 id="139">
+</php:ACTION41>
+<php:ctor_arguments id="144">
+<php:CHAR40 id="140">(</php:CHAR40>
+<php:function_call_parameter_list id="142">
+</php:function_call_parameter_list>
+<php:CHAR41 id="143">)</php:CHAR41>
+</php:ctor_arguments>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="148">,</php:CHAR44>
+<php:expr_without_variable id="152">
+<php:scalar id="151">
+<php:T_STRING id="149">null</php:T_STRING>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+</php:function_call_parameter_list>
+<php:CHAR41 id="157">)</php:CHAR41>
+</php:method_or_not>
+<php:variable_properties id="159">
+</php:variable_properties>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="165">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="171">
+</php:ACTION2>
+<php:inner_statement id="201">
+<php:statement id="200">
+<php:unticked_statement id="199">
+<php:expr id="197">
+<php:r_variable id="196">
+<php:variable id="194">
+<php:base_variable_with_function_calls id="177">
+<php:base_variable id="176">
+<php:reference_variable id="174">
+<php:compound_variable id="173">
+<php:T_VARIABLE id="172">$myFoo</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+<php:T_OBJECT_OPERATOR id="178">-&gt;</php:T_OBJECT_OPERATOR>
+<php:ACTION57 id="179">
+</php:ACTION57>
+<php:object_property id="184">
+<php:object_dim_list id="182">
+<php:variable_name id="181">
+<php:T_STRING id="180">getInputString</php:T_STRING>
+</php:variable_name>
+</php:object_dim_list>
+</php:object_property>
+<php:ACTION58 id="185">
+</php:ACTION58>
+<php:method_or_not id="191">
+<php:CHAR40 id="186">(</php:CHAR40>
+<php:ACTION60 id="187">
+</php:ACTION60>
+<php:function_call_parameter_list id="189">
+</php:function_call_parameter_list>
+<php:CHAR41 id="190">)</php:CHAR41>
+</php:method_or_not>
+<php:variable_properties id="192">
+</php:variable_properties>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="198">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="204">
+</php:ACTION2>
+<php:inner_statement id="236">
+<php:statement id="235">
+<php:unticked_statement id="234">
+<php:expr id="232">
+<php:expr_without_variable id="231">
+<php:variable id="223">
+<php:base_variable_with_function_calls id="210">
+<php:base_variable id="209">
+<php:reference_variable id="207">
+<php:compound_variable id="206">
+<php:T_VARIABLE id="205">$myFoo</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+<php:T_OBJECT_OPERATOR id="211">-&gt;</php:T_OBJECT_OPERATOR>
+<php:ACTION57 id="212">
+</php:ACTION57>
+<php:object_property id="217">
+<php:object_dim_list id="215">
+<php:variable_name id="214">
+<php:T_STRING id="213">inputString</php:T_STRING>
+</php:variable_name>
+</php:object_dim_list>
+</php:object_property>
+<php:ACTION58 id="218">
+</php:ACTION58>
+<php:method_or_not id="220">
+</php:method_or_not>
+<php:variable_properties id="221">
+</php:variable_properties>
+</php:variable>
+<php:CHAR61 id="224">=</php:CHAR61>
+<php:expr id="229">
+<php:expr_without_variable id="228">
+<php:scalar id="227">
+<php:common_scalar id="226">
+<php:T_CONSTANT_ENCAPSED_STRING id="225">'bar'</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:expr>
+</php:expr_without_variable>
+</php:expr>
+<php:CHAR59 id="233">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="239">
+</php:ACTION2>
+<php:inner_statement id="273">
+<php:statement id="272">
+<php:unticked_statement id="271">
+<php:expr id="269">
+<php:r_variable id="268">
+<php:variable id="266">
+<php:base_variable_with_function_calls id="264">
+<php:function_call id="263">
+<php:fully_qualified_class_name id="242">
+<php:T_STRING id="240">Bar</php:T_STRING>
+</php:fully_qualified_class_name>
+<php:T_PAAMAYIM_NEKUDOTAYIM id="243">::</php:T_PAAMAYIM_NEKUDOTAYIM>
+<php:T_STRING id="244">add</php:T_STRING>
+<php:CHAR40 id="245">(</php:CHAR40>
+<php:ACTION50 id="246">
+</php:ACTION50>
+<php:function_call_parameter_list id="261">
+<php:non_empty_function_call_parameter_list id="259">
+<php:non_empty_function_call_parameter_list id="252">
+<php:expr_without_variable id="250">
+<php:scalar id="249">
+<php:common_scalar id="248">
+<php:T_LNUMBER id="247">1</php:T_LNUMBER>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="253">,</php:CHAR44>
+<php:expr_without_variable id="257">
+<php:scalar id="256">
+<php:common_scalar id="255">
+<php:T_LNUMBER id="254">1</php:T_LNUMBER>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+</php:function_call_parameter_list>
+<php:CHAR41 id="262">)</php:CHAR41>
+</php:function_call>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="270">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="276">
+</php:ACTION2>
+<php:inner_statement id="344">
+<php:statement id="343">
+<php:unticked_statement id="342">
+<php:expr id="340">
+<php:r_variable id="339">
+<php:variable id="337">
+<php:base_variable_with_function_calls id="335">
+<php:function_call id="334">
+<php:fully_qualified_class_name id="279">
+<php:T_STRING id="277">self</php:T_STRING>
+</php:fully_qualified_class_name>
+<php:T_PAAMAYIM_NEKUDOTAYIM id="280">::</php:T_PAAMAYIM_NEKUDOTAYIM>
+<php:T_STRING id="281">test</php:T_STRING>
+<php:CHAR40 id="282">(</php:CHAR40>
+<php:ACTION50 id="283">
+</php:ACTION50>
+<php:function_call_parameter_list id="332">
+<php:non_empty_function_call_parameter_list id="330">
+<php:non_empty_function_call_parameter_list id="323">
+<php:non_empty_function_call_parameter_list id="309">
+<php:non_empty_function_call_parameter_list id="298">
+<php:non_empty_function_call_parameter_list id="289">
+<php:expr_without_variable id="287">
+<php:scalar id="286">
+<php:common_scalar id="285">
+<php:T_LNUMBER id="284">1</php:T_LNUMBER>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="290">,</php:CHAR44>
+<php:expr_without_variable id="296">
+<php:T_ARRAY id="291">array</php:T_ARRAY>
+<php:CHAR40 id="292">(</php:CHAR40>
+<php:array_pair_list id="294">
+</php:array_pair_list>
+<php:CHAR41 id="295">)</php:CHAR41>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="299">,</php:CHAR44>
+<php:variable id="307">
+<php:base_variable_with_function_calls id="305">
+<php:base_variable id="304">
+<php:reference_variable id="302">
+<php:compound_variable id="301">
+<php:T_VARIABLE id="300">$this</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="310">,</php:CHAR44>
+<php:expr_without_variable id="321">
+<php:T_NEW id="311">new</php:T_NEW>
+<php:class_name_reference id="314">
+<php:T_STRING id="312">stdClass</php:T_STRING>
+</php:class_name_reference>
+<php:ACTION41 id="315">
+</php:ACTION41>
+<php:ctor_arguments id="320">
+<php:CHAR40 id="316">(</php:CHAR40>
+<php:function_call_parameter_list id="318">
+</php:function_call_parameter_list>
+<php:CHAR41 id="319">)</php:CHAR41>
+</php:ctor_arguments>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="324">,</php:CHAR44>
+<php:expr_without_variable id="328">
+<php:scalar id="327">
+<php:T_STRING id="325">null</php:T_STRING>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+</php:function_call_parameter_list>
+<php:CHAR41 id="333">)</php:CHAR41>
+</php:function_call>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="341">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="347">
+</php:ACTION2>
+<php:inner_statement id="415">
+<php:statement id="414">
+<php:unticked_statement id="413">
+<php:expr id="411">
+<php:r_variable id="410">
+<php:variable id="408">
+<php:base_variable_with_function_calls id="406">
+<php:function_call id="405">
+<php:fully_qualified_class_name id="350">
+<php:T_STRING id="348">Test</php:T_STRING>
+</php:fully_qualified_class_name>
+<php:T_PAAMAYIM_NEKUDOTAYIM id="351">::</php:T_PAAMAYIM_NEKUDOTAYIM>
+<php:T_STRING id="352">test</php:T_STRING>
+<php:CHAR40 id="353">(</php:CHAR40>
+<php:ACTION50 id="354">
+</php:ACTION50>
+<php:function_call_parameter_list id="403">
+<php:non_empty_function_call_parameter_list id="401">
+<php:non_empty_function_call_parameter_list id="394">
+<php:non_empty_function_call_parameter_list id="380">
+<php:non_empty_function_call_parameter_list id="369">
+<php:non_empty_function_call_parameter_list id="360">
+<php:expr_without_variable id="358">
+<php:scalar id="357">
+<php:common_scalar id="356">
+<php:T_LNUMBER id="355">1</php:T_LNUMBER>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="361">,</php:CHAR44>
+<php:expr_without_variable id="367">
+<php:T_ARRAY id="362">array</php:T_ARRAY>
+<php:CHAR40 id="363">(</php:CHAR40>
+<php:array_pair_list id="365">
+</php:array_pair_list>
+<php:CHAR41 id="366">)</php:CHAR41>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="370">,</php:CHAR44>
+<php:variable id="378">
+<php:base_variable_with_function_calls id="376">
+<php:base_variable id="375">
+<php:reference_variable id="373">
+<php:compound_variable id="372">
+<php:T_VARIABLE id="371">$this</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="381">,</php:CHAR44>
+<php:expr_without_variable id="392">
+<php:T_NEW id="382">new</php:T_NEW>
+<php:class_name_reference id="385">
+<php:T_STRING id="383">stdClass</php:T_STRING>
+</php:class_name_reference>
+<php:ACTION41 id="386">
+</php:ACTION41>
+<php:ctor_arguments id="391">
+<php:CHAR40 id="387">(</php:CHAR40>
+<php:function_call_parameter_list id="389">
+</php:function_call_parameter_list>
+<php:CHAR41 id="390">)</php:CHAR41>
+</php:ctor_arguments>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="395">,</php:CHAR44>
+<php:expr_without_variable id="399">
+<php:scalar id="398">
+<php:T_STRING id="396">null</php:T_STRING>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+</php:function_call_parameter_list>
+<php:CHAR41 id="404">)</php:CHAR41>
+</php:function_call>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="412">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="418">
+</php:ACTION2>
+<php:inner_statement id="482">
+<php:statement id="481">
+<php:unticked_statement id="480">
+<php:expr id="478">
+<php:r_variable id="477">
+<php:variable id="475">
+<php:base_variable_with_function_calls id="473">
+<php:function_call id="472">
+<php:T_STRING id="419">userDefinedFunction</php:T_STRING>
+<php:CHAR40 id="420">(</php:CHAR40>
+<php:ACTION49 id="421">
+</php:ACTION49>
+<php:function_call_parameter_list id="470">
+<php:non_empty_function_call_parameter_list id="468">
+<php:non_empty_function_call_parameter_list id="461">
+<php:non_empty_function_call_parameter_list id="447">
+<php:non_empty_function_call_parameter_list id="436">
+<php:non_empty_function_call_parameter_list id="427">
+<php:expr_without_variable id="425">
+<php:scalar id="424">
+<php:common_scalar id="423">
+<php:T_LNUMBER id="422">1</php:T_LNUMBER>
+</php:common_scalar>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="428">,</php:CHAR44>
+<php:expr_without_variable id="434">
+<php:T_ARRAY id="429">array</php:T_ARRAY>
+<php:CHAR40 id="430">(</php:CHAR40>
+<php:array_pair_list id="432">
+</php:array_pair_list>
+<php:CHAR41 id="433">)</php:CHAR41>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="437">,</php:CHAR44>
+<php:variable id="445">
+<php:base_variable_with_function_calls id="443">
+<php:base_variable id="442">
+<php:reference_variable id="440">
+<php:compound_variable id="439">
+<php:T_VARIABLE id="438">$this</php:T_VARIABLE>
+</php:compound_variable>
+</php:reference_variable>
+</php:base_variable>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="448">,</php:CHAR44>
+<php:expr_without_variable id="459">
+<php:T_NEW id="449">new</php:T_NEW>
+<php:class_name_reference id="452">
+<php:T_STRING id="450">stdClass</php:T_STRING>
+</php:class_name_reference>
+<php:ACTION41 id="453">
+</php:ACTION41>
+<php:ctor_arguments id="458">
+<php:CHAR40 id="454">(</php:CHAR40>
+<php:function_call_parameter_list id="456">
+</php:function_call_parameter_list>
+<php:CHAR41 id="457">)</php:CHAR41>
+</php:ctor_arguments>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+<php:CHAR44 id="462">,</php:CHAR44>
+<php:expr_without_variable id="466">
+<php:scalar id="465">
+<php:T_STRING id="463">null</php:T_STRING>
+</php:scalar>
+</php:expr_without_variable>
+</php:non_empty_function_call_parameter_list>
+</php:function_call_parameter_list>
+<php:CHAR41 id="471">)</php:CHAR41>
+</php:function_call>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="479">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:ACTION2 id="485">
+</php:ACTION2>
+<php:inner_statement id="502">
+<php:statement id="501">
+<php:unticked_statement id="500">
+<php:expr id="498">
+<php:r_variable id="497">
+<php:variable id="495">
+<php:base_variable_with_function_calls id="493">
+<php:function_call id="492">
+<php:T_STRING id="486">time</php:T_STRING>
+<php:CHAR40 id="487">(</php:CHAR40>
+<php:ACTION49 id="488">
+</php:ACTION49>
+<php:function_call_parameter_list id="490">
+</php:function_call_parameter_list>
+<php:CHAR41 id="491">)</php:CHAR41>
+</php:function_call>
+</php:base_variable_with_function_calls>
+</php:variable>
+</php:r_variable>
+</php:expr>
+<php:CHAR59 id="499">;</php:CHAR59>
+</php:unticked_statement>
+</php:statement>
+</php:inner_statement>
+</php:inner_statement_list>
+<php:CHAR125 id="504">}</php:CHAR125>
+</php:method_body>
+</php:class_statement>
+</php:class_statement_list>
+<php:class_statement id="570">
+<php:method_modifiers id="509">
+</php:method_modifiers>
+<php:T_FUNCTION id="510">function</php:T_FUNCTION>
+<php:is_reference id="512">
+</php:is_reference>
+<php:T_STRING id="513">test</php:T_STRING>
+<php:CHAR40 id="514">(</php:CHAR40>
+<php:parameter_list id="564">
+<php:non_empty_parameter_list id="562">
+<php:non_empty_parameter_list id="553">
+<php:non_empty_parameter_list id="544">
+<php:non_empty_parameter_list id="538">
+<php:non_empty_parameter_list id="532">
+<php:non_empty_parameter_list id="525">
+<php:non_empty_parameter_list id="519">
+<php:optional_class_type id="516">
+</php:optional_class_type>
+<php:T_VARIABLE id="517">$nix</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="520">,</php:CHAR44>
+<php:optional_class_type id="522">
+<php:T_STRING id="521">Array</php:T_STRING>
+</php:optional_class_type>
+<php:T_VARIABLE id="523">$ar</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="526">,</php:CHAR44>
+<php:optional_class_type id="528">
+</php:optional_class_type>
+<php:CHAR38 id="529">&amp;</php:CHAR38>
+<php:T_VARIABLE id="530">$ref</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="533">,</php:CHAR44>
+<php:optional_class_type id="535">
+</php:optional_class_type>
+<php:T_VARIABLE id="536">$std</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="539">,</php:CHAR44>
+<php:optional_class_type id="541">
+</php:optional_class_type>
+<php:T_VARIABLE id="542">$na</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="545">,</php:CHAR44>
+<php:optional_class_type id="547">
+</php:optional_class_type>
+<php:T_VARIABLE id="548">$opt</php:T_VARIABLE>
+<php:CHAR61 id="549">=</php:CHAR61>
+<php:static_scalar id="552">
+<php:T_STRING id="550">NULL</php:T_STRING>
+</php:static_scalar>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="554">,</php:CHAR44>
+<php:optional_class_type id="556">
+</php:optional_class_type>
+<php:T_VARIABLE id="557">$def</php:T_VARIABLE>
+<php:CHAR61 id="558">=</php:CHAR61>
+<php:static_scalar id="561">
+<php:common_scalar id="560">
+<php:T_CONSTANT_ENCAPSED_STRING id="559">"FooBar"</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:static_scalar>
+</php:non_empty_parameter_list>
+</php:parameter_list>
+<php:CHAR41 id="565">)</php:CHAR41>
+<php:method_body id="569">
+<php:CHAR123 id="566">{</php:CHAR123>
+<php:inner_statement_list id="567">
+</php:inner_statement_list>
+<php:CHAR125 id="568">}</php:CHAR125>
+</php:method_body>
+</php:class_statement>
+</php:class_statement_list>
+<php:CHAR125 id="572">}</php:CHAR125>
+</php:unticked_class_declaration_statement>
+</php:class_declaration_statement>
+</php:top_statement>
+</php:top_statement_list>
+<php:ACTION1 id="578">
+</php:ACTION1>
+<php:top_statement id="642">
+<php:function_declaration_statement id="641">
+<php:unticked_function_declaration_statement id="640">
+<php:T_FUNCTION id="579">function</php:T_FUNCTION>
+<php:ACTION29 id="580">
+</php:ACTION29>
+<php:is_reference id="582">
+</php:is_reference>
+<php:T_STRING id="583">userDefinedFunction</php:T_STRING>
+<php:ACTION30 id="584">
+</php:ACTION30>
+<php:CHAR40 id="585">(</php:CHAR40>
+<php:parameter_list id="635">
+<php:non_empty_parameter_list id="633">
+<php:non_empty_parameter_list id="624">
+<php:non_empty_parameter_list id="615">
+<php:non_empty_parameter_list id="609">
+<php:non_empty_parameter_list id="603">
+<php:non_empty_parameter_list id="596">
+<php:non_empty_parameter_list id="590">
+<php:optional_class_type id="587">
+</php:optional_class_type>
+<php:T_VARIABLE id="588">$nix</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="591">,</php:CHAR44>
+<php:optional_class_type id="593">
+<php:T_STRING id="592">Array</php:T_STRING>
+</php:optional_class_type>
+<php:T_VARIABLE id="594">$ar</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="597">,</php:CHAR44>
+<php:optional_class_type id="599">
+</php:optional_class_type>
+<php:CHAR38 id="600">&amp;</php:CHAR38>
+<php:T_VARIABLE id="601">$ref</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="604">,</php:CHAR44>
+<php:optional_class_type id="606">
+</php:optional_class_type>
+<php:T_VARIABLE id="607">$std</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="610">,</php:CHAR44>
+<php:optional_class_type id="612">
+</php:optional_class_type>
+<php:T_VARIABLE id="613">$na</php:T_VARIABLE>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="616">,</php:CHAR44>
+<php:optional_class_type id="618">
+</php:optional_class_type>
+<php:T_VARIABLE id="619">$opt</php:T_VARIABLE>
+<php:CHAR61 id="620">=</php:CHAR61>
+<php:static_scalar id="623">
+<php:T_STRING id="621">NULL</php:T_STRING>
+</php:static_scalar>
+</php:non_empty_parameter_list>
+<php:CHAR44 id="625">,</php:CHAR44>
+<php:optional_class_type id="627">
+</php:optional_class_type>
+<php:T_VARIABLE id="628">$def</php:T_VARIABLE>
+<php:CHAR61 id="629">=</php:CHAR61>
+<php:static_scalar id="632">
+<php:common_scalar id="631">
+<php:T_CONSTANT_ENCAPSED_STRING id="630">"FooBar"</php:T_CONSTANT_ENCAPSED_STRING>
+</php:common_scalar>
+</php:static_scalar>
+</php:non_empty_parameter_list>
+</php:parameter_list>
+<php:CHAR41 id="636">)</php:CHAR41>
+<php:CHAR123 id="637">{</php:CHAR123>
+<php:inner_statement_list id="638">
+</php:inner_statement_list>
+<php:CHAR125 id="639">}</php:CHAR125>
+</php:unticked_function_declaration_statement>
+</php:function_declaration_statement>
+</php:top_statement>
+</php:top_statement_list>
+</php:start>
