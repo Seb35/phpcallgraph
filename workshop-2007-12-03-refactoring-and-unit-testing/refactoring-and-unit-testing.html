@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Refactoring and Unit Testing for PHP</title>
+</head>
+<body>
+<strong>
+    Call graph generation with <a href="http://phpcallgraph.sf.net">PHPCallGraph</a>:
+</strong>
+<pre>
+    phpcallgraph -f png -o callgraphs/functions-07.png functions.php classes
+</pre>
+
+<strong>
+Some regular expressions used for refactoring with <a href="http://vimdoc.sourceforge.net/htmldoc/quickref.html">VIM</a>:
+</strong>
+<pre>
+    :%s/function /public static function /gc
+    :%s/=\([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*\)(/ = self::\1(/gc
+    :%s/\([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*javascript[a-zA-Z0-9_\x7f-\xff]*\)(/JavaScript::\1(/gc
+    :%s/print_javascript_alert/getAlert/gc
+    :%s/draw_javascript/getScriptElement/gc
+    :%s/draw_javascript_backlink/getBackLink/gc
+    :%s/draw_javascript_buttonlink/getButtonLink/gc
+    :%s/draw_javascript_to_change_status/changeStatus/gc
+    :%s/draw_javascript_to_image_src/changeImageSource/gc
+</pre>
+
+<strong>
+Automatic generation of a test case for the timer class with <a href="http://phpunit.de">PHPUnit</a>:
+</strong>
+<pre>
+    cd tests
+    phpunit --skeleton Timer ../classes/Timer.php
+</pre>
+
+<strong>
+Execution of test case via:
+</strong>
+<pre>
+    cd tests
+    phpunit TimerTest
+</pre>
+</body>
+</html>
