@@ -1,14 +1,24 @@
+body {
+    font-size: 10pt;
+    font-family: sans-serif;
+}
+
 .text {
-    padding: 15px;
+    padding: 10px;
+}
+
+.figuredescription {
+    font-style: italic;
+    padding-left: 7px;
+    padding-bottom: 20px;
 }
 
 .freedom {
     float: left;
-    width: 190px;
+    width: 228px;
     margin: 5px;
     border: 1px lavender solid;
     -moz-border-radius: 20px;
-    font-family: sans-serif;
 }
 
 .freedomicon {
@@ -16,21 +26,12 @@
     padding-top: 15px;
 }
 
-h1 {
-    font-family: sans-serif;
+h1,h2,h3 {
     color: lightsteelblue;
 }
 
 h2 {
-    font-family: sans-serif;
     text-align: center;
-    color: lightsteelblue;
-}
-
-h3 {
-    font-family: sans-serif;
-    text-align: center;
-    color: lightsteelblue;
 }
 
 .ohloh {
