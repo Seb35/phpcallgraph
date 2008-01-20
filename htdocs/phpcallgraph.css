@@ -3,14 +3,9 @@ body {
     font-family: sans-serif;
 }
 
-.text {
-    padding: 10px;
-}
-
 .figuredescription {
     font-style: italic;
-    padding-left: 7px;
-    padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 .freedom {
@@ -23,7 +18,7 @@ body {
 
 .freedomicon {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 h1,h2,h3 {
