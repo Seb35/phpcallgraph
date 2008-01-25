@@ -25,6 +25,10 @@ h1,h2,h3 {
     color: lightsteelblue;
 }
 
+h1 {
+    font-size: 18pt;
+}
+
 h2 {
     text-align: center;
 }
