@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docbase="/home/falko/projects/callgraphgenerator/svn-working-copy/docs"
+   sodipodi:docname="logo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient31440">
+      <stop
+         id="stop31442"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.5"
+         id="stop31446" />
+      <stop
+         id="stop31448"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop31444"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11910">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop11912" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop11914" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutS"
+       style="overflow:visible">
+      <path
+         id="path7244"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path7247"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DistanceIn"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DistanceIn">
+      <g
+         id="g7294">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:1.15;stroke-linecap:square"
+           d="M 0,0 L 2,0"
+           id="path2306" />
+        <path
+           style="fill:#000000;fill-rule:evenodd;stroke:none"
+           d="M 0,0 L 13,4 L 9,0 13,-4 L 0,0 z "
+           id="path2302" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square"
+           d="M 0,-4 L 0,40"
+           id="path2304" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="StopS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="StopS"
+       style="overflow:visible">
+      <path
+         id="path7235"
+         d="M 0.0,5.65 L 0.0,-5.65"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineStart"
+       id="InfiniteLineStart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g7160"
+         transform="translate(-13,0)">
+        <circle
+           id="circle7162"
+           r="0.8"
+           cy="0"
+           cx="3" />
+        <circle
+           id="circle7164"
+           r="0.8"
+           cy="0"
+           cx="6.5" />
+        <circle
+           id="circle7166"
+           r="0.8"
+           cy="0"
+           cx="10" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineEnd"
+       id="InfiniteLineEnd"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g7169">
+        <circle
+           id="circle7171"
+           r="0.8"
+           cy="0"
+           cx="3" />
+        <circle
+           id="circle7173"
+           r="0.8"
+           cy="0"
+           cx="6.5" />
+        <circle
+           id="circle7175"
+           r="0.8"
+           cy="0"
+           cx="10" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path7250"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="RazorWire"
+       id="RazorWire"
+       refX="0"
+       refY="0"
+       orient="auto">
+       style=&quot;overflow:visible&quot;&gt;
+      <path
+   id="path7178"
+   transform="scale(0.8,0.8)"
+   style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1pt"
+   d="M 0.022727273,-0.74009011 L 0.022727273,0.69740989 L -7.7585227,3.0099099 L 10.678977,3.0099099 L 3.4914773,0.69740989 L 3.4914773,-0.74009011 L 10.741477,-2.8963401 L -7.7272727,-2.8963401 L 0.022727273,-0.74009011 z " />
+</marker>
+    <linearGradient
+       id="linearGradient5141">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5143" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5145" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3133">
+      <stop
+         style="stop-color:#9999cc;stop-opacity:1;"
+         offset="0"
+         id="stop3135" />
+      <stop
+         id="stop12887"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#9999cc;stop-opacity:0;"
+         offset="1"
+         id="stop3137" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter17294">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1765993"
+         id="feGaussianBlur17296" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter17298">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1765993"
+         id="feGaussianBlur17300" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       x="-0.057377597"
+       width="1.1147552"
+       y="-0.11530766"
+       height="1.2306153"
+       id="filter17302">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1765993"
+         id="feGaussianBlur17304" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter30445">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.1851349"
+         id="feGaussianBlur30447" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11910"
+       id="radialGradient31509"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.437589,0,80.066051)"
+       cx="164.28572"
+       cy="142.36218"
+       fx="164.28572"
+       fy="142.36218"
+       r="36.635235" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3133"
+       id="linearGradient31511"
+       gradientUnits="userSpaceOnUse"
+       x1="171.5972"
+       y1="124.82085"
+       x2="177.68237"
+       y2="159.90352" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11910"
+       id="radialGradient31517"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.437589,0,80.066051)"
+       cx="164.28572"
+       cy="142.36218"
+       fx="164.28572"
+       fy="142.36218"
+       r="36.635235" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3133"
+       id="linearGradient31519"
+       gradientUnits="userSpaceOnUse"
+       x1="171.5972"
+       y1="124.82085"
+       x2="177.68237"
+       y2="159.90352" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11910"
+       id="radialGradient31521"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.437589,0,80.066051)"
+       cx="164.28572"
+       cy="142.36218"
+       fx="164.28572"
+       fy="142.36218"
+       r="36.635235" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3133"
+       id="linearGradient31523"
+       gradientUnits="userSpaceOnUse"
+       x1="171.5972"
+       y1="124.82085"
+       x2="177.68237"
+       y2="159.90352" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11910"
+       id="radialGradient32525"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.437589,0,80.066051)"
+       cx="164.28572"
+       cy="142.36218"
+       fx="164.28572"
+       fy="142.36218"
+       r="36.635235" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3133"
+       id="linearGradient32527"
+       gradientUnits="userSpaceOnUse"
+       x1="177.4576"
+       y1="124.81185"
+       x2="186.13991"
+       y2="159.91251" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="86.090735"
+     inkscape:cy="881.7982"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       rx="10"
+       y="941.86224"
+       x="5.2142859"
+       height="109.28572"
+       width="180"
+       id="rect27496"
+       style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter30445)"
+       transform="matrix(0.9861945,0,0,0.9837975,4.937216,-914.09355)"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26525"
+       width="180"
+       height="109.28572"
+       x="8.087018"
+       y="9.4441738"
+       rx="10"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient31509);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path9966"
+       sodipodi:cx="164.28572"
+       sodipodi:cy="142.36218"
+       sodipodi:rx="36.635235"
+       sodipodi:ry="16.031178"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       transform="matrix(1.014623,0,0,1.1336682,-74.993897,-130.01879)"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#TriangleOutS);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 70.135209,42.74705 C 61.261729,48.76243 58.093329,59.37684 58.093329,59.37684"
+       id="path17306"
+       inkscape:transform-center-x="3.2669565"
+       inkscape:transform-center-y="0.37875963"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient31511);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2160"
+       sodipodi:cx="164.28572"
+       sodipodi:cy="142.36218"
+       sodipodi:rx="36.635235"
+       sodipodi:ry="16.031178"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       transform="translate(-74.79043,-112.12221)"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="67.518547"
+       y="37.520771"
+       id="text4168"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4170"
+         x="67.518547"
+         y="37.520771"
+         style="font-size:28px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline">php</tspan></text>
+    <text
+       id="text15341"
+       y="37.920856"
+       x="68.118431"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter17294);font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:28px;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline"
+         y="37.920856"
+         x="68.118431"
+         id="tspan15343"
+         sodipodi:role="line">php</tspan></text>
+    <path
+       inkscape:transform-center-y="-2.457633"
+       inkscape:transform-center-x="-0.93581138"
+       id="path18325"
+       d="M 132.65809,73.57653 C 129.93305,56.26083 120.36892,45.93468 120.36892,45.93468"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#TriangleOutS);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient32525);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path12893"
+       sodipodi:cx="164.28572"
+       sodipodi:cy="142.36218"
+       sodipodi:rx="36.635235"
+       sodipodi:ry="16.031178"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       transform="matrix(1.2778356,0,0,1.3564484,-71.735984,-97.912841)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient32527);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.6283667;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6136"
+       sodipodi:cx="164.28572"
+       sodipodi:cy="142.36218"
+       sodipodi:rx="61.383972"
+       sodipodi:ry="17.04133"
+       d="M 225.66969 142.36218 A 61.383972 17.04133 0 1 1  102.90175,142.36218 A 61.383972 17.04133 0 1 1  225.66969 142.36218 z"
+       transform="matrix(0.7248132,0,0,1.1707172,18.414163,-73.445689)" />
+    <text
+       id="text15345"
+       y="100.40868"
+       x="101.9194"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter17298);font-family:Bitstream Vera Sans;opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:28px;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline"
+         y="100.40868"
+         x="101.9194"
+         id="tspan15347"
+         sodipodi:role="line">graph</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#9999ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans;opacity:1"
+       x="101.31952"
+       y="100.00856"
+       id="text6138"><tspan
+         sodipodi:role="line"
+         id="tspan6140"
+         x="101.31952"
+         y="100.00856"
+         style="font-size:28px;fill:#9999ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline">graph</tspan></text>
+    <path
+       inkscape:transform-center-y="-3.4643567"
+       inkscape:transform-center-x="-1.6145453"
+       id="path18289"
+       d="M 68.562629,70.70373 C 88.233269,53.20777 109.40199,71.51373 109.6463,71.75283"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#TriangleOutS);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient31517);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path12889"
+       sodipodi:cx="164.28572"
+       sodipodi:cy="142.36218"
+       sodipodi:rx="36.635235"
+       sodipodi:ry="16.031178"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       transform="matrix(1.0389945,0,0,1.1448072,-120.06924,-81.426)"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient31519);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path8421"
+       sodipodi:cx="164.28572"
+       sodipodi:cy="142.36218"
+       sodipodi:rx="36.635235"
+       sodipodi:ry="16.031178"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       transform="translate(-115.62728,-61.70379)"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text15349"
+       y="89.982132"
+       x="25.424448"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter17302);font-family:Bitstream Vera Sans;opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:28px;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline"
+         y="89.982132"
+         x="25.424448"
+         sodipodi:role="line"
+         id="tspan15351">call</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#9999ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans;opacity:1"
+       x="24.824556"
+       y="89.582016"
+       id="text8423"><tspan
+         id="tspan8429"
+         sodipodi:role="line"
+         x="24.824556"
+         y="89.582016"
+         style="font-size:28px;fill:#9999ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline">call</tspan></text>
+    <path
+       transform="matrix(1.014623,0,0,1.0470271,-76.993897,-117.55809)"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       sodipodi:ry="16.031178"
+       sodipodi:rx="36.635235"
+       sodipodi:cy="142.36218"
+       sodipodi:cx="164.28572"
+       id="path18313"
+       style="fill:url(#radialGradient31521);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-74.79043,-112.12221)"
+       d="M 200.92096 142.36218 A 36.635235 16.031178 0 1 1  127.65049,142.36218 A 36.635235 16.031178 0 1 1  200.92096 142.36218 z"
+       sodipodi:ry="16.031178"
+       sodipodi:rx="36.635235"
+       sodipodi:cy="142.36218"
+       sodipodi:cx="164.28572"
+       id="path18315"
+       style="fill:url(#linearGradient31523);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter17294);font-family:Bitstream Vera Sans;opacity:1"
+       x="68.118431"
+       y="37.920856"
+       id="text18321"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan18323"
+         x="68.118431"
+         y="37.920856"
+         style="font-size:28px;fill:#7db2fe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline">php</tspan></text>
+    <text
+       id="text18317"
+       y="37.520771"
+       x="67.518547"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#9999ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Bitstream Vera Sans;opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/home/falko/projects/callgraphgenerator/svn-working-copy/docs/logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:28px;fill:#9999ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Baekmuk Headline"
+         y="37.520771"
+         x="67.518547"
+         id="tspan18319"
+         sodipodi:role="line">php</tspan></text>
+  </g>
+</svg>
