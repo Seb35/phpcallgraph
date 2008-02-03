@@ -1,0 +1,21 @@
+# increase version number in src/PHPCallGraph.php
+svn ci
+# update changelog using information from svn log https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk
+svn ci -m "- Updating changelog for the 0.6.4 release of PHPCallGraph"
+svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.6.4 --force
+cd  phpcallgraph-0.6.4
+rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents.php
+# check for new example files which may not be worth to be included in releases
+rm lib/ezcomponents-instantsvc/components/setup-env.*
+cd ..
+tar czf phpcallgraph-0.6.4.tar.gz phpcallgraph-0.6.4
+zip -r phpcallgraph-0.6.4.zip phpcallgraph-0.6.4
+# upload phpcallgraph-0.6.4.tar.gz and phpcallgraph-0.6.4.zip to ftp://upload.sourceforge.net/incoming
+# add release `PHPCallGraph v0.6.4' to package `PHPCallGraph'
+svn copy \
+    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk \
+    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.6.4 \
+    -m "- Tagging the 0.6.4 release of PHPCallGraph"
+# update the website
+# submit news item at http://sourceforge.net/news/submit.php?group_id=204008
+# write to the mailing list phpcallgraph-general@lists.sourceforge.net (include direct download links in the mail)
