@@ -1,21 +1,25 @@
 # increase version number in src/PHPCallGraph.php
-svn ci
+svn ci -m '- Increased version number of phpCallGraph to 0.7.0'
 # update changelog using information from svn log https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk
-svn ci -m "- Updating changelog for the 0.6.4 release of PHPCallGraph"
-svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.6.4 --force
-cd  phpcallgraph-0.6.4
-rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents.php
+aspell -c changelog.txt
+svn ci -m "- Updating changelog for the 0.7.0 release of phpCallGrapah"
+# write release notes & check spelling
+svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.7.0 --force
+cd  phpcallgraph-0.7.0
+rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents*
 # check for new example files which may not be worth to be included in releases
 rm lib/ezcomponents-instantsvc/components/setup-env.*
 cd ..
-tar czf phpcallgraph-0.6.4.tar.gz phpcallgraph-0.6.4
-zip -r phpcallgraph-0.6.4.zip phpcallgraph-0.6.4
-# upload phpcallgraph-0.6.4.tar.gz and phpcallgraph-0.6.4.zip to ftp://upload.sourceforge.net/incoming
-# add release `PHPCallGraph v0.6.4' to package `PHPCallGraph'
+tar czf phpcallgraph-0.7.0.tar.gz phpcallgraph-0.7.0
+zip -r phpcallgraph-0.7.0.zip phpcallgraph-0.7.0
+pscp phpcallgraph-0.7.0.* fakko@frs.sourceforge.net:uploads/
+# add release `PHPCallGraph v0.7.0' to package `PHPCallGraph'
 svn copy \
     https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk \
-    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.6.4 \
-    -m "- Tagging the 0.6.4 release of PHPCallGraph"
-# update the website
+    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0 \
+    -m "- Tagging the 0.7.0 release of phpCallGraph"
+sed -i 's/-0.6.4/-0.7.0/' website/htdocs/index.html
+pscp -sftp website/htdocs/index.html fakko,phpcallgraph@web.sf.net:/home/groups/p/ph/phpcallgraph/htdocs/
+svn ci -m "- Added link to the 0.7.0 release of phpCallGraph to the website" website/htdocs/index.html
 # submit news item at http://sourceforge.net/news/submit.php?group_id=204008
 # write to the mailing list phpcallgraph-general@lists.sourceforge.net (include direct download links in the mail)
