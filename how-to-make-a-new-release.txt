@@ -6,7 +6,7 @@ svn ci -m "- Updating changelog for the 0.7.0 release of phpCallGrapah"
 # write release notes & check spelling
 svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.7.0 --force
 cd  phpcallgraph-0.7.0
-rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents*
+rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents* setup-env.sh
 # check for new example files which may not be worth to be included in releases
 rm lib/ezcomponents-instantsvc/components/setup-env.*
 cd ..
