@@ -1,5 +1,7 @@
 # increase version number in src/PHPCallGraph.php
 svn ci -m '- Increased version number of phpCallGraph to 0.7.0'
+# update readme.txt with latest options and argument documentation
+aspell -c readme.txt
 # update changelog using information from svn log https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk
 aspell -c changelog.txt
 svn ci -m "- Updating changelog for the 0.7.0 release of phpCallGrapah"
