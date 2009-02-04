@@ -4,18 +4,20 @@ svn ci -m '- Increased version number of phpCallGraph to 0.7.0'
 aspell -c readme.txt
 # update changelog using information from svn log https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk
 aspell -c changelog.txt
-svn ci -m "- Updating changelog for the 0.7.0 release of phpCallGrapah"
+svn ci -m "- Updating changelog for the 0.7.0 release of phpCallGraph"
 # write release notes & check spelling
 svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.7.0 --force
 cd  phpcallgraph-0.7.0
-rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents* setup-env.sh
+rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents*
 # check for new example files which may not be worth to be included in releases
+# run tests under Windows and Linux
 rm lib/ezcomponents-instantsvc/components/setup-env.*
 cd ..
 tar czf phpcallgraph-0.7.0.tar.gz phpcallgraph-0.7.0
 zip -r phpcallgraph-0.7.0.zip phpcallgraph-0.7.0
 pscp phpcallgraph-0.7.0.* fakko@frs.sourceforge.net:uploads/
-# add release `PHPCallGraph v0.7.0' to package `PHPCallGraph'
+# add release `phpCallGraph v0.7.0' to package `phpCallGraph'
+# change primary download file at https://sourceforge.net/project/admin/platform_edit.php?group_id=204008&sel_platform=-1
 svn copy \
     https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk \
     https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0 \
@@ -25,3 +27,49 @@ pscp -sftp website/htdocs/index.html fakko,phpcallgraph@web.sf.net:/home/groups/
 svn ci -m "- Added link to the 0.7.0 release of phpCallGraph to the website" website/htdocs/index.html
 # submit news item at http://sourceforge.net/news/submit.php?group_id=204008
 # write to the mailing list phpcallgraph-general@lists.sourceforge.net (include direct download links in the mail)
+
+
+################################################################################
+# small bugfix release
+svn copy \
+    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0 \
+    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0-pl1 \
+    -m "- Tagging the 0.7.0-pl1 release of phpCallGraph"
+mkdir tags
+cd tags
+svn co https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0-pl1
+cd phpcallgraph-0.7.0-pl1
+# apply patch e.g.
+svn rm bin/phpcallgraph.bat
+svn cp https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk/bin/phpcallgraph.bat bin/
+svn ci -m "- Copying fixed file to the 0.7.0-pl1 release of phpCallGraph"
+svn diff ../../trunk/src/PHPCallGraph.php
+# increase version number in src/PHPCallGraph.php e.g. using vimdiff src/PHPCallGraph.php ../../trunk/src/PHPCallGraph.php
+svn ci -m '- Increased version number of phpCallGraph to 0.7.0-pl1'
+svn ci ../../trunk/src/PHPCallGraph.php  -m'- Increased version number of phpCallGraph to 0.7.0-pl1'
+# update changelog in TRUNK using information from svn log https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk
+svn ci -m "- Updating changelog for the 0.7.0-pl1 release of phpCallGraph"
+svn rm changelog.txt
+svn cp https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk/changelog.txt .
+svn ci -m "- Copying changelog to the 0.7.0-pl1 release of phpCallGraph"
+cd ../../..
+# write release notes & check spelling
+svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0-pl1 phpcallgraph-0.7.0-pl1 --force
+cd  phpcallgraph-0.7.0-pl1
+rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents*
+# check for new example files which may not be worth to be included in releases
+# run tests under Windows and Linux
+rm lib/ezcomponents-instantsvc/components/setup-env.*
+cd ..
+tar czf phpcallgraph-0.7.0-pl1.tar.gz phpcallgraph-0.7.0-pl1
+zip -r phpcallgraph-0.7.0-pl1.zip phpcallgraph-0.7.0-pl1
+pscp phpcallgraph-0.7.0-pl1.* fakko@frs.sourceforge.net:uploads/
+# add release `phpCallGraph v0.7.0-pl1' to package `phpCallGraph'
+# change primary download file at https://sourceforge.net/project/admin/platform_edit.php?group_id=204008&sel_platform=-1
+cd svn-working-copy
+sed -i 's/-0.7.0/-0.7.0-pl1/' website/htdocs/index.html
+pscp -sftp website/htdocs/index.html fakko,phpcallgraph@web.sf.net:/home/groups/p/ph/phpcallgraph/htdocs/
+svn ci -m "- Added link to the 0.7.0-pl1 release of phpCallGraph to the website" website/htdocs/index.html
+# submit news item at http://sourceforge.net/news/submit.php?group_id=204008
+# write to the mailing list phpcallgraph-general@lists.sourceforge.net (include direct download links in the mail)
+# rm -rf tags
