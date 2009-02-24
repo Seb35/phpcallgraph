@@ -21,6 +21,11 @@ body {
     padding-top: 10px;
 }
 
+.belowfreedoms {
+    padding-top: 15px;
+    clear: left;
+}
+
 h1,h2,h3 {
     color: lightsteelblue;
 }
@@ -31,12 +36,6 @@ h1 {
 
 h2 {
     text-align: center;
-}
-
-.ohloh {
-    /*text-align: center;*/
-    padding-top: 20px;
-    clear: left;
 }
 
 img {
