@@ -14,7 +14,7 @@ rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezc
 rm lib/ezcomponents-instantsvc/components/setup-env.*
 cd ..
 tar czf phpcallgraph-0.7.0.tar.gz phpcallgraph-0.7.0
-zip -r phpcallgraph-0.7.0.zip phpcallgraph-0.7.0
+zip -9 -r phpcallgraph-0.7.0.zip phpcallgraph-0.7.0
 pscp phpcallgraph-0.7.0.* fakko@frs.sourceforge.net:uploads/
 # add release `phpCallGraph v0.7.0' to package `phpCallGraph'
 # change primary download file at https://sourceforge.net/project/admin/platform_edit.php?group_id=204008&sel_platform=-1
