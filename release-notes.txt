@@ -1,0 +1,33 @@
+2009-08-05: Generate UML Sequence Diagrams for Your PHP Code
+============================================================
+...
+
+
+2009-02-04: phpCallGraph 0.7.0-pl1 released
+===========================================
+phpCallGraph 0.7.0-pl1 has been released. It is a bugfix release, which addresses an issue with the start script for Windows. On UNIX systems an upgrade is not necessary. All Windows users are encouraged to upgrade to the new version, which can be downloaded at http://phpcallgraph.sourceforge.net 
+
+Thanks to Modesto, Markus and Sameer for reporting this issue.
+
+
+2008-11-15: phpCallGraph 0.7.0 released
+=======================================
+Version 0.7.0 of phpCallGraph has been released. Most importantly, it fixes a severe bug, which prevented correct recursion into sub-directories. Furthermore, it features support for autoloading, a debug option for finding analysis problems, as well as new colors and fonts for better readability. 
+
+The sandbox of the InstantSVC CodeAnalyzer has also been greatly improved by introducing white-list-based function call filtering. This allows for performing source code analyses using reflection without the danger of accidentally executing code in the global scope. 
+
+All users are encouraged to upgrade to the new version, which can be downloaded at http://phpcallgraph.sourceforge.net
+
+
+2008-01-02: PHPCallGraph v0.6.4 released
+=======================================
+While PHPCallGraph was initially developed for object-oriented code, this release adds the ability to analyze user-defined functions. 
+
+Also code in the global scope (outside any functions or methods) can now be analyzed with the help of a little workaround: Such code can be manually wrapped in a dummy function called dummyFunctionForFile_filename_php() which will then be recognized by PHPCallGraph. 
+
+Of course this is not very elegant but currently the only feasible way due to some conceptual restrictions resulting from the utilization of the InstantSVC CodeAnalyzer.
+
+
+2007-10-11: PHPCallGraph v0.6.3 released
+========================================
+Version 0.6.3 of PHPCallGraph contains several small improvements which make it easier to run PHPCallGraph under Windows and Unix. If you were already able to use PHPCallGraph, there is no need to update since the functionality has not been changed.
