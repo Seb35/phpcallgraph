@@ -1,8 +1,18 @@
 2009-08-05: Generate UML Sequence Diagrams for Your PHP Code
 ============================================================
-phpCallGraph 0.8.0 has been released. It introduces a new feature, the ability to generate rudimentary per-method call graphs in the style of UML sequence graphs. The new UmlGraphSequenceDiagramDriver outputs scripts readable by http://www.umlgraph.org 's use of GNUplot pic2plot, which is then used to generate images representing the calls made by the method.
+It's been a while since the last release of phpCallGraph and in the meantime a couple of new developers joined to the project. Thus, version 0.8.0 introduces several new features and improvements.
 
-Bug fixes include:
+Most notably, Martin Cleaver added the ability to generate rudimentary per-method call graphs in the style of UML sequence diagrams. The new UmlGraphSequenceDiagramDriver outputs scripts readable by UMLGraph (http://www.umlgraph.org), which are then used to generate images with pic2plot of the GNU plotutils package. These images represent the calls made by a particular method.
+
+Another change, which might be a bit of a surprise for users of previous versions, is the change of the layouting direction in the GraphVizDriver from top-to-bottom to left-to-right. Experience has shown that this allows for more compact call graph layouts.
+
+Till Klampaeckel developed an output driver that outputs the calls as a serialized associative array. This allows to use the collected data in other PHP-based tools.
+
+Further improvements are a dead (unreachable) code analysis, new debugging facilities and a first approach to symbolic execution, which allows for tracking variable types. A newly introduced unit test suite allowed for some refactoring and the switch to updated versions of the underlying libraries without breaking things. This will also pave the path for further improvements of the analysis algorithms and the symbolic execution.
+
+Thanks to Christian Weiske and Till Klampaeckel we will soon provide PEAR packages for phpCallGraph and its underlying libraries.
+
+All users are encouraged to upgrade to the new version, which can be downloaded at http://phpcallgraph.sourceforge.net
 
 
 2009-02-04: phpCallGraph 0.7.0-pl1 released
