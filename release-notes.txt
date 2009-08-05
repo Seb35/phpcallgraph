@@ -1,6 +1,8 @@
 2009-08-05: Generate UML Sequence Diagrams for Your PHP Code
 ============================================================
-...
+phpCallGraph 0.8.0 has been released. It introduces a new feature, the ability to generate rudimentary per-method call graphs in the style of UML sequence graphs. The new UmlGraphSequenceDiagramDriver outputs scripts readable by http://www.umlgraph.org 's GNUplot pic2plot, which is then used to generate images representing the calls made by the method.
+
+Bug fixes include:
 
 
 2009-02-04: phpCallGraph 0.7.0-pl1 released
