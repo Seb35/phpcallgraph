@@ -1,30 +1,31 @@
-# increase version number in src/PHPCallGraph.php
-svn ci -m '- Increased version number of phpCallGraph to 0.7.0'
+sed -i "s/    const VERSION = '0.7.0-pl1';/    const VERSION = '0.8.0';/" src/PHPCallGraph.php
+svn ci src/PHPCallGraph.php -m '- Increased version number of phpCallGraph to 0.8.0'
 # update readme.txt with latest options and argument documentation
-aspell -c readme.txt
+aspell -l en_US -c readme.txt
+svn ci readme.txt -m '- Updated readme.txt with latest options and argument documentation'
 # update changelog using information from svn log https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk
-aspell -c changelog.txt
-svn ci -m "- Updating changelog for the 0.7.0 release of phpCallGraph"
-# write release notes & check spelling
-svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.7.0 --force
-cd  phpcallgraph-0.7.0
-rm examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents*
+aspell -l en_US -c changelog.txt
+svn ci -m "- Updated changelog for the 0.8.0 release of phpCallGraph" changelog.txt
+vim ../docs/release-notes.txt
+aspell -l en_US -c ../docs/release-notes.txt
+svn ci -m "- Added release notes for the 0.8.0 release of phpCallGraph" ../docs/release-notes.txt
+svn export https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk phpcallgraph-0.8.0
+cd phpcallgraph-0.8.0
+rm -rf examples/PHPCallGraph-640x229.png examples/testfiles-640x206.png examples/ezcomponents* build.xml package.xml.php lib/umlgraph/UMLGraph-5.2.tar.gz test/PHPCallGraphCliTest.php test/output test/bug_* test/config.xml setup-env.sh examples/test-objectvar-invoke.sh examples/umlgraph-output/*.txt lib/umlgraph/build.sh
 # check for new example files which may not be worth to be included in releases
+find | sed 's/^.\///' | less
 # run tests under Windows and Linux
-rm lib/ezcomponents-instantsvc/components/setup-env.*
 cd ..
-tar czf phpcallgraph-0.7.0.tar.gz phpcallgraph-0.7.0
-zip -9 -r phpcallgraph-0.7.0.zip phpcallgraph-0.7.0
-pscp phpcallgraph-0.7.0.* fakko@frs.sourceforge.net:uploads/
-# add release `phpCallGraph v0.7.0' to package `phpCallGraph'
-# change primary download file at https://sourceforge.net/project/admin/platform_edit.php?group_id=204008&sel_platform=-1
+tar czf phpcallgraph-0.8.0.tar.gz phpcallgraph-0.8.0
+zip -9 -r phpcallgraph-0.8.0.zip phpcallgraph-0.8.0
+# add release `phpCallGraph v0.8.0' to package `phpCallGraph' at https://sourceforge.net/project/admin/explorer.php?group_id=204008
 svn copy \
     https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/trunk \
-    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.7.0 \
-    -m "- Tagging the 0.7.0 release of phpCallGraph"
-sed -i 's/-0.6.4/-0.7.0/' website/htdocs/index.html
-pscp -sftp website/htdocs/index.html fakko,phpcallgraph@web.sf.net:/home/groups/p/ph/phpcallgraph/htdocs/
-svn ci -m "- Added link to the 0.7.0 release of phpCallGraph to the website" website/htdocs/index.html
+    https://phpcallgraph.svn.sourceforge.net/svnroot/phpcallgraph/tags/phpcallgraph-0.8.0 \
+    -m "- Tagging the 0.8.0 release of phpCallGraph"
+sed -i 's/-0.7.0-pl1/-0.8.0/' ../website/htdocs/index.html
+pscp -sftp ../website/htdocs/index.html fakko,phpcallgraph@web.sf.net:/home/groups/p/ph/phpcallgraph/htdocs/
+svn ci -m "- Added link to the 0.8.0 release of phpCallGraph to the website" ../website/htdocs/index.html
 # submit news item at http://sourceforge.net/news/submit.php?group_id=204008
 # write to the mailing list phpcallgraph-general@lists.sourceforge.net (include direct download links in the mail)
 
@@ -63,9 +64,7 @@ rm lib/ezcomponents-instantsvc/components/setup-env.*
 cd ..
 tar czf phpcallgraph-0.7.0-pl1.tar.gz phpcallgraph-0.7.0-pl1
 zip -r phpcallgraph-0.7.0-pl1.zip phpcallgraph-0.7.0-pl1
-pscp phpcallgraph-0.7.0-pl1.* fakko@frs.sourceforge.net:uploads/
 # add release `phpCallGraph v0.7.0-pl1' to package `phpCallGraph'
-# change primary download file at https://sourceforge.net/project/admin/platform_edit.php?group_id=204008&sel_platform=-1
 cd svn-working-copy
 sed -i 's/-0.7.0/-0.7.0-pl1/' website/htdocs/index.html
 pscp -sftp website/htdocs/index.html fakko,phpcallgraph@web.sf.net:/home/groups/p/ph/phpcallgraph/htdocs/
